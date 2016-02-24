@@ -1,4 +1,4 @@
-function LongestWord(sen) { 
+function LongestWord(sen) {
 
   var words = sen.match(/[a-z]+/gi);
   var largest = "";
@@ -7,9 +7,9 @@ function LongestWord(sen) {
       largest = word;
   });
   return largest;
-         
+
 }
-   
-// keep this function call here 
+
+// keep this function call here
 // to see how to enter arguments in JavaScript scroll down
-LongestWord(readline());           
+LongestWord(readline());
